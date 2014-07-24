@@ -1,0 +1,61 @@
+/* Reset */
+
+/* General */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #FF5C26;
+}
+:hover, :link, :visited {
+  color: #FF5C26;
+}
+
+
+#header {
+  background-color: #FF5C26;
+  padding: 15px 30px;
+}
+  .logo {
+    width: 150px;
+  }
+
+#nav {
+  background-color: #FFA485;
+  height: 30px;
+}
+  .menu, .menu li {
+    color: #FFF;
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu a {
+    display: block;
+    float: left;
+    padding: 3px 5px;
+  }
+  .menu :hover,
+  .menu :link,
+  .menu :visited  {
+    color: #FFF;
+  }
+  
+#content {
+  min-height: 300px;
+}
+
+#footer {
+  background-color: #FFCCBC;
+  min-height: 100px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    text-align: center;
+  }
+}
