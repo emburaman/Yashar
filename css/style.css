@@ -14,6 +14,8 @@ a {
   color: #FF5C26;
 }
 
+body {
+}
 
 #header {
   background-color: #FF5C26;
@@ -25,7 +27,8 @@ a {
 
 #nav {
   background-color: #FFA485;
-  height: 30px;
+  overflow: hidden;
+  padding: 5px 30px;
 }
   .menu, .menu li {
     color: #FFF;
@@ -37,25 +40,45 @@ a {
   .menu a {
     display: block;
     float: left;
-    padding: 3px 5px;
+    padding: 5px 10px;
   }
   .menu :hover,
   .menu :link,
   .menu :visited  {
     color: #FFF;
+    text-decoration: none;
+  }
+  .menu :hover {
+    background-color: #FF5C26;
   }
   
 #content {
   min-height: 300px;
+  padding: 15px 30px;
 }
+  .banner {
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: -15px -30px;
+    text-align: center;
+  }
 
 #footer {
   background-color: #FFCCBC;
   min-height: 100px;
+  padding: 15px 30px;
 }
 
 @media (max-width: 768px) {
   #header {
     text-align: center;
   }
+  #content {
+    min-height: 200px;
+  }
+    .banner {
+      background-size: auto 200px;
+      height: 200px;
+    }
 }

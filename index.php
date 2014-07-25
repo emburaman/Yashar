@@ -46,6 +46,7 @@
   
     <!-- Content Definitions -->
     <div id="content">
+      <div class="banner" style="background-image: url(img/education.png)"></div>
       
     </div>
     
